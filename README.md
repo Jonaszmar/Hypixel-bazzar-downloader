@@ -10,7 +10,7 @@ hypixel_bazaar:
   class: HypixelBazaar
 
 For hypixel_trade_helper_mariadb.py:
-{
+  {
  hypixel_trade_helper_mariadb:
   module: hypixel_trade_helper_mariadb
   class: HypixelTradeHelperMariaDB
@@ -46,9 +46,8 @@ For hypixel_trade_helper_mariadb.py:
     user: [user]]
     password: [password]]
     database: [database]]
-
-
     type: history-graph
+
 title: "Bazaar – ostatnie 24h"
 hours_to_show: 24
 refresh_interval: 60
@@ -58,5 +57,5 @@ entities:
   - entity: sensor.hypixel_sell_price
     name: Sell
  
-}
+  }
 
