@@ -3,13 +3,15 @@ Downloading prices from hypixel bazzar and storing them on MariaDB database
 
 Aplication in Homeassisatnt.
 
-To oparete you need to create database and write in apps.yaml:
+To oparete you need to create database and write in apps.yaml for hypixel_bazzar.py:
 
 hypixel_bazaar:
   module: hypixel_bazaar
   class: HypixelBazaar
 
-hypixel_trade_helper_mariadb:
+For hypixel_trade_helper_mariadb.py:
+{
+ hypixel_trade_helper_mariadb:
   module: hypixel_trade_helper_mariadb
   class: HypixelTradeHelperMariaDB
 
@@ -55,3 +57,6 @@ entities:
     name: Buy
   - entity: sensor.hypixel_sell_price
     name: Sell
+ 
+}
+
